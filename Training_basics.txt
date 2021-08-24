@@ -1,0 +1,41 @@
+Cascade classifier training
+
+1. Δημιουργία dataset με positive & negative images
+2. Δημιουργία αρχείου bg.txt, το οποίο περιέχει το path για όλα τα αρνητικά δείγματα.
+ 
+# Directory
+
+` /img
+  img1.jpg
+  img2.jpg
+bg.txt
+`
+
+# bg.txt
+
+`
+img/img1.jpg
+img/img2.jpg
+`
+3. Χρήση του εργαλείου `opencv_createsamples` για διαμόρφωση των θετικών δειγμάτων. Λεπτομέρειες για την εντολή και τις παραμέτρους υπάρχουν [εδώ](https://www.huge-man-linux.net/man1/opencv-createsamples.html)
+
+4. Χρήση του εργαλείου `opecv_annotation` για την επιλογή των bounding boxes και δημιουργία αρχείου info.dat, αντίστοιχο με το `bg.txt`, αλλά για τα θετικά δείγματα. Το αρχείο αυτό περιέχει και τις συντεταγμένες των bounding boxes. Κάποια χρήσιμα πράγματα υπάρχουν [εδώ](https://answers.opencv.org/question/75083/documentation-for-opencv_annotation/)
+
+# Directory
+
+` /img
+  img1.jpg
+  img2.jpg
+info.dat
+`
+
+# info.dat
+
+`
+img/img1.jpg  1  140 100 45 45
+img/img2.jpg  2  100 200 50 50   50 30 25 25
+`
+
+5. Χρήση της εντολής opencv_traincascade για το τελικό training. 
+
+Λεπτομέρειες για όλη τη διαδικασία, καθώς και τον καθορισμό των παραμέτρων που απαιτούνται υπάρχουν [εδώ](https://docs.opencv.org/3.4/dc/d88/tutorial_traincascade.html).
