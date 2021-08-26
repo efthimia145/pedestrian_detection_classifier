@@ -130,7 +130,6 @@ negative/pedestrian_neg_197.jpg
 negative/pedestrian_neg_19752.jpg
 negative/pedestrian_neg_198.jpg
 negative/pedestrian_neg_199.jpg
-negative/pedestrian_neg_2
 negative/pedestrian_neg_2.jpg
 negative/pedestrian_neg_20.jpg
 negative/pedestrian_neg_200.jpg
@@ -501,7 +500,7 @@ negative/pedestrian_neg_70.jpg
 negative/pedestrian_neg_71.jpg
 negative/pedestrian_neg_72.jpg
 negative/pedestrian_neg_72579.jpg
-negative/pedestrian_neg_727
+negative/pedestrian_neg_727.jpg
 negative/pedestrian_neg_73.jpg
 negative/pedestrian_neg_74.jpg
 negative/pedestrian_neg_75.jpg
@@ -532,8 +531,8 @@ negative/pedestrian_neg_88.jpg
 negative/pedestrian_neg_880.jpg
 negative/pedestrian_neg_89.jpg
 negative/pedestrian_neg_890.jpg
+negative/pedestrian_neg_900.jpg
 negative/pedestrian_neg_9.jpg
-negative/pedestrian_neg_90.0jpg
 negative/pedestrian_neg_90.jpg
 negative/pedestrian_neg_91.jpg
 negative/pedestrian_neg_910.jpg
